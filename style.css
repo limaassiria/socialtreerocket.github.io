@@ -1,0 +1,73 @@
+* {
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    margin: 0%;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcfce2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 100%;
+    border: 2.5px solid transparent;
+    outline: 1.5px outset #BB99DD;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-name {
+    font-size: 15px;
+    color: #BB99DD;
+    text-align: center;
+    font-weight: 500;
+}
+
+.links {
+    color: #BB99DD;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    
+}
+
+#insta,
+#linkedin,
+#github,
+#twitter,
+#twitch {
+    display: flex; 
+    justify-content: center; 
+    border:2px solid #BB99DD;
+    color: #BB99DD;
+    font-size: 15px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px 100px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.icon-links {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+i {
+    padding-inline: 15px;
+    padding-top: 20px;
+    color: #BB99DD;
+}
